@@ -4,6 +4,9 @@
     <option name="filePathToZoomLevelMap">
       <map>
         <entry key="..\:/college/MyMeals/app/src/main/res/layout/activity_main.xml" value="0.1" />
+        <entry key="..\:/college/MyMeals/app/src/main/res/layout/fragment_first_introduction.xml" value="0.25" />
+        <entry key="..\:/college/MyMeals/app/src/main/res/layout/fragment_second_introduction.xml" value="0.25" />
+        <entry key="..\:/college/MyMeals/app/src/main/res/layout/fragment_third_introduction.xml" value="0.17074275362318841" />
       </map>
     </option>
   </component>
