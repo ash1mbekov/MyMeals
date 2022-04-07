@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "621286994562",
+    "project_id": "healthymeals-6da6c",
+    "storage_bucket": "healthymeals-6da6c.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:621286994562:android:2121458b34363e45c07a9b",
+        "android_client_info": {
+          "package_name": "com.ashimbekov.mymeals"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "621286994562-jtgfga8b95h21205obo5c09jcgth1g8l.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDXVmx7WIfHTp0e8CNOtlXhR9-jgJ5ECe0"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "621286994562-jtgfga8b95h21205obo5c09jcgth1g8l.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
