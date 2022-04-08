@@ -6,12 +6,13 @@ import androidx.lifecycle.ViewModel
 import com.ashimbekov.mymeals.data.models.Event
 import com.ashimbekov.mymeals.data.models.prefs.SharedPrefsHelper
 import com.ashimbekov.mymeals.data.models.user.UserGoal
+import com.ashimbekov.mymeals.data.repositories.IntroductionRepository
 import com.ashimbekov.mymeals.data.repositories.UserRepository
 import kotlinx.coroutines.coroutineScope
 
 class IntroductionViewModel (
     private val userRepository: UserRepository,
-    private val introductionRepository: IntroductionViewModel,
+    private val introductionRepository: IntroductionRepository,
     private val spHelper: SharedPrefsHelper
 ):ViewModel() {
 

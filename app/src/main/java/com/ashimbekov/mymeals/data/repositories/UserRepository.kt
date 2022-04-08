@@ -2,11 +2,26 @@ package com.ashimbekov.mymeals.data.repositories
 
 import androidx.lifecycle.LiveData
 import androidx.lifecycle.MutableLiveData
+import androidx.lifecycle.liveData
+import com.ashimbekov.mymeals.data.databases.daos.UserDao
+import com.ashimbekov.mymeals.data.interfaces.BasicOperationCallback
+import com.ashimbekov.mymeals.data.interfaces.UserDeleteCallback
+import com.ashimbekov.mymeals.data.models.BasicNutrientType
+import com.ashimbekov.mymeals.data.models.MeasureType
+import com.ashimbekov.mymeals.data.models.calculations.LeftNutrientCalculator
+import com.ashimbekov.mymeals.data.models.day.Day
+import com.ashimbekov.mymeals.data.models.user.User
+import com.ashimbekov.mymeals.data.models.user.UserLeftValues
+import com.google.firebase.auth.FirebaseAuth
+import com.google.firebase.auth.FirebaseAuthRecentLoginRequiredException
+import com.google.firebase.firestore.DocumentReference
+import com.google.firebase.firestore.ktx.firestore
 import com.google.firebase.ktx.Firebase
 import kotlinx.coroutines.CoroutineScope
 import kotlinx.coroutines.Dispatchers
 import kotlinx.coroutines.coroutineScope
 import kotlinx.coroutines.launch
+import kotlinx.coroutines.tasks.await
 import javax.inject.Inject
 
 class UserRepository @Inject internal constructor(
